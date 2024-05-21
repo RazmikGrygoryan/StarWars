@@ -25,7 +25,7 @@ def light_sabers_page(driver):
 
 @pytest.fixture()
 def accessories_page(driver):
-    return LightSabers(driver)
+    return Accessories(driver)
 
 
 @pytest.fixture()
